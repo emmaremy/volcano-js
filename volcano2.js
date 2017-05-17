@@ -16,23 +16,6 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
     point = [38.965, -77.067];
     console.log(projection(point));
 
-    svg.selectAll("circle")
-        .datum(point)
-        .enter()
-      .append("circle")
-        .attr("cx", 103.4)
-    //function(d) {
-    //        console.log(projection(d)[0]);
-    //        return projection(d)[0];
-    //    })
-        .attr("cy", 583)
-                //function(d) {
-   //         console.log(projection(d)[1]);
-   //         return projection(d)[1];
-   //     })
-        .attr("r", 10)
-        .style("fill", "red")
-
     svg.selectAll("path")
       .data(topojson.feature(world, world.objects.land).features)
         .enter()
@@ -41,5 +24,20 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .attr("fill", "green")
         .attr("d", path);
 
+    svg.append("g")
+        .selectAll("circle")
+        .data([point])
+        .enter()
+      .append("circle")
+        .attr("cx", function(d) {
+            console.log(projection(d)[0]);
+            return projection(d)[0];
+        })
+        .attr("cy", function(d) {
+            console.log(projection(d)[1]);
+            return projection(d)[1];
+        })
+        .attr("r", 10)
+        .style("fill", "red")
 
 });
