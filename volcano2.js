@@ -12,8 +12,6 @@ var path = d3.geoPath()
 
 var data = [38.964, -77.067];
 
-var g = svg.append("g")
-
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
@@ -25,7 +23,8 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .attr("fill", "green")
         .attr("d", path);
 
-    g.selectAll("circle")
+    svg.append("g")
+        .selectAll("circle")
         .datum(data)
         .enter()
       .append("circle")
