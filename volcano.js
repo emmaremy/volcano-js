@@ -35,18 +35,33 @@ function dragged() {
     render();
 }
 
+
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
     var sphere = {type: "Sphere"},
-    land = topojson.feature(world, world.objects.countries);
+    land = topojson.feature(world, world.objects.land);
 
-render = function() {
-    context.clearRect(0, 0, width, height);
-    context.beginPath(), path(sphere), context.fillStyle = "#fff", context.fill();
-    context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
-    context.beginPath(), path(sphere), context.stroke();
-};
+    aa = [-122.490402, 37.786453];
+
+    render = function() {
+        context.clearRect(0, 0, width, height);
+        context.beginPath(), path(sphere), context.fillStyle = "#fff", context.fill();
+        context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
+        context.beginPath(), path(sphere), context.stroke();
+        
+        context.selectAll("circle")
+            .data([25,25]).enter()
+            .append("circle")
+            .attr("cx", function(d) {
+                return projection(d)[0];
+            })
+            .attr("cy", function(d) {
+                return projection(d)[1];
+            })
+            .attr("r", "10px")
+            .attr("fill", "red");
+    };
 
 render();
 });
