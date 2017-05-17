@@ -38,7 +38,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
             console.log(projection(d)[1]);
             return projection(d)[1];
         })
-        .attr("r", 10)
+        .attr("r", 3)
         .style("fill", "red")
 
 });
