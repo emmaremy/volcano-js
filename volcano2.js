@@ -17,10 +17,10 @@ var g = svg.append("g")
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
-    g.attr("class", "land")
-      .selectAll("path")
+    svg.selectAll("path")
       .data(topojson.feature(world, world.objects.land).features)
       .enter().append("path")
+        .attr("class", "land")
         .attr("d", path);
 
     g.selectAll("circle")
