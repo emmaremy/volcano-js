@@ -10,10 +10,10 @@ var projection = d3.geoMercator()
 var path = d3.geoPath()
     .projection(projection);
 
-var data = [38.964, -77.067];
-
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
+
+    point = [38.965, -77.067];
 
     svg.selectAll("path")
       .data(topojson.feature(world, world.objects.land).features)
@@ -23,9 +23,8 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .attr("fill", "green")
         .attr("d", path);
 
-    svg.append("g")
-        .selectAll("circle")
-        .datum(data)
+    svg.selectAll("circle")
+        .datum(point)
         .enter()
       .append("circle")
         .attr("class", "eruption")
