@@ -1,4 +1,4 @@
-var canvas = d3.select("svg"),
+var canvas = d3.select("canvas"),
     width = canvas.property("width"),
     height = canvas.property("height"),
     context = canvas.node().getContext("2d");
