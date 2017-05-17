@@ -23,7 +23,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .attr("class", "land")
         .attr("d", path);
 
-    g.selectAll("circle")
+    svg.selectAll("circle")
         .datum(data)
         .enter()
       .append("circle")
