@@ -1,0 +1,366 @@
+"Volcano.Number","Volcano.Name","Country","Region","Subregion","Primary.Volcano.Type","Major.Rock.1","Major.Rock.2","Population.within.30.km","Elevation","avg.VEI","Latitude","Longitude","eruption_count"
+211010,"Campi Flegrei","Italy","Mediterranean and W Asia","Italy","Caldera","Trachyte / Trachyandesite","Phonolite",3006865,458,3,40.827,14.139,1
+211020,"Vesuvius","Italy","Mediterranean and W Asia","Italy","Stratovolcano","Phono-tephrite /  Tephri-phonolite","Phonolite",3907941,1281,3.18181818181818,40.821,14.426,22
+211040,"Stromboli","Italy","Mediterranean and W Asia","Italy","Stratovolcano","Trachyandesite / Basaltic trachy-andesite","Andesite / Basaltic Andesite",3894,924,2,38.789,15.213,2
+211050,"Vulcano","Italy","Mediterranean and W Asia","Italy","Stratovolcano(es)","Trachybasalt / Tephrite Basanite","Trachyandesite / Basaltic trachy-andesite",86766,500,3,38.404,14.962,1
+211060,"Etna","Italy","Mediterranean and W Asia","Italy","Stratovolcano(es)","Trachybasalt / Tephrite Basanite","Trachyandesite / Basaltic trachy-andesite",1016540,3330,NA,37.734,15.004,96
+211070,"Campi Flegrei Mar Sicilia","Italy","Mediterranean and W Asia","Italy","Submarine","Trachybasalt / Tephrite Basanite","Basalt / Picro-Basalt",230578,-8,2.5,37.1,12.7,2
+211071,"Pantelleria","Italy","Mediterranean and W Asia","Italy","Shield","Rhyolite","Trachyte / Trachyandesite",12403,836,1,36.77,12.02,1
+212040,"Santorini","Greece","Mediterranean and W Asia","Greece","Shield(s)","Dacite","Andesite / Basaltic Andesite",12336,367,2.57142857142857,36.404,25.396,7
+221020,"Zubair Group","Yemen","Africa and Red Sea","Africa (northeastern) and Red Sea","Shield","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",7,191,NA,15.05,42.18,1
+221101,"Nabro","Eritrea","Africa and Red Sea","Africa (northeastern) and Red Sea","Stratovolcano","Trachyte / Trachyandesite","Rhyolite",2713,2218,4,13.37,41.7,1
+221113,"Dabbahu","Ethiopia","Africa and Red Sea","Africa (northeastern) and Red Sea","Stratovolcano","Basalt / Picro-Basalt","Rhyolite",36494,1401,3,12.595,40.48,1
+221115,"Manda Hararo","Ethiopia","Africa and Red Sea","Africa (northeastern) and Red Sea","Shield(s)","Basalt / Picro-Basalt",NA,7455,600,2,12.17,40.82,2
+221126,"Ardouk?ba","Djibouti","Africa and Red Sea","Africa (northeastern) and Red Sea","Fissure vent(s)","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",6898,298,1,11.58,42.47,1
+222120,"Lengai, Ol Doinyo","Tanzania","Africa and Red Sea","Africa (eastern)","Stratovolcano","Foidite","Phonolite",18074,2962,2.33333333333333,-2.764,35.914,3
+222160,"Meru","Tanzania","Africa and Red Sea","Africa (eastern)","Stratovolcano","Phonolite","Foidite",828942,4565,2,-3.25,36.75,1
+223020,"Nyamuragira","DR Congo","Africa and Red Sea","Africa (central)","Shield","Trachybasalt / Tephrite Basanite","Phono-tephrite /  Tephri-phonolite",711356,3058,2,-1.408,29.2,28
+223030,"Nyiragongo","DR Congo","Africa and Red Sea","Africa (central)","Stratovolcano","Foidite",NA,1006436,3470,1.25,-1.52,29.25,4
+223050,"Visoke","DR Congo-Rwanda","Africa and Red Sea","Africa (central)","Stratovolcano","Trachyandesite / Basaltic trachy-andesite",NA,1162209,3696,1,-1.458,29.485,1
+224010,"Cameroon","Cameroon","Africa and Red Sea","Africa (western)","Stratovolcano","Trachybasalt / Tephrite Basanite","Basalt / Picro-Basalt",417460,4095,1.85714285714286,4.203,9.17,7
+231070,"Rahat, Harrat","Saudi Arabia","Middle East and Indian Ocean","Middle East (southern)","Volcanic field","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",1010115,1744,3,23.08,39.78,1
+233010,"Karthala","Comoros","Middle East and Indian Ocean","Indian Ocean (western)","Shield","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",278330,2361,1.81818181818182,-11.75,43.38,11
+233020,"Fournaise, Piton de la","France","Middle East and Indian Ocean","Indian Ocean (western)","Shield","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",246792,2632,NA,-21.244,55.708,105
+234010,"Heard","Australia","Middle East and Indian Ocean","Indian Ocean (southern)","Stratovolcano","Trachybasalt / Tephrite Basanite","Basalt / Picro-Basalt",0,2745,1,-53.106,73.513,6
+234070,"Marion Island","South Africa","Middle East and Indian Ocean","Indian Ocean (southern)","Shield(s)","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",0,1230,1,-46.9,37.75,1
+241040,"White Island","New Zealand","New Zealand to Fiji","New Zealand","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",5,321,2,-37.52,177.18,11
+241050,"Okataina","New Zealand","New Zealand to Fiji","New Zealand","Lava dome(s)","Rhyolite",NA,79591,1111,1,-38.12,176.5,12
+241080,"Tongariro","New Zealand","New Zealand to Fiji","New Zealand","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,7591,1978,2.07692307692308,-39.157,175.632,13
+241100,"Ruapehu","New Zealand","New Zealand to Fiji","New Zealand","Stratovolcano","Andesite / Basaltic Andesite",NA,6901,2797,1.25641025641026,-39.28,175.57,39
+241130,"Rumble III","New Zealand","New Zealand to Fiji","New Zealand","Submarine","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",0,-220,0,-35.745,178.478,2
+242030,"Raoul Island","New Zealand","New Zealand to Fiji","Kermadec Islands","Stratovolcano","Andesite / Basaltic Andesite","Dacite",0,516,2,-29.27,-177.92,3
+242050,"Monowai Seamount","New Zealand","New Zealand to Fiji","Tonga Islands","Submarine","Basalt / Picro-Basalt",NA,0,-132,0,-25.887,-177.188,13
+243040,"Hunga Tonga-Hunga Ha'apai","Tonga","New Zealand to Fiji","Tonga Islands","Submarine","Andesite / Basaltic Andesite",NA,532,114,1,-20.536,-175.382,2
+243060,"Tofua","Tonga","New Zealand to Fiji","Tonga Islands","Caldera","Andesite / Basaltic Andesite","Dacite",1556,515,1,-19.75,-175.07,1
+243070,"Metis Shoal","Tonga","New Zealand to Fiji","Tonga Islands","Submarine","Dacite",NA,18,43,2,-19.18,-174.87,3
+243080,"Home Reef","Tonga","New Zealand to Fiji","Tonga Islands","Submarine","Dacite",NA,142,-10,2.5,-18.992,-174.775,2
+243091,"Unnamed","Tonga","New Zealand to Fiji","Tonga Islands","Submarine","Dacite",NA,20,-40,2,-18.325,-174.365,1
+243100,"Fonualei","Tonga","New Zealand to Fiji","Tonga Islands","Stratovolcano","Dacite","Andesite / Basaltic Andesite",91,180,4,-18.02,-174.325,1
+243102,"Curacoa","Tonga","New Zealand to Fiji","Tonga Islands","Submarine","Dacite",NA,37,-33,3,-15.62,-173.67,1
+243110,"Niuafo'ou","Tonga","New Zealand to Fiji","Tonga Islands","Shield","Basalt / Picro-Basalt",NA,155,260,1.66666666666667,-15.6,-175.63,6
+244000,"Vailulu'u","United States","New Zealand to Fiji","Samoan and Wallis Islands","Submarine","Basalt / Picro-Basalt",NA,0,-592,0,-14.215,-169.058,2
+244010,"Ofu-Olosega","United States","New Zealand to Fiji","Samoan and Wallis Islands","Shield(s)","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",1387,639,2,-14.175,-169.618,1
+244040,"Savai'i","Samoa","New Zealand to Fiji","Samoan and Wallis Islands","Shield","Basalt / Picro-Basalt",NA,34215,1858,1,-13.612,-172.525,1
+250010,"St. Andrew Strait","Papua New Guinea","Melanesia and Australia","Admiralty Islands","Complex","Rhyolite",NA,2870,270,2,-2.38,147.35,1
+251010,"Bam","Papua New Guinea","Melanesia and Australia","Northeast of New Guinea","Stratovolcano","Andesite / Basaltic Andesite",NA,462,685,1.85714285714286,-3.613,144.818,7
+251020,"Manam","Papua New Guinea","Melanesia and Australia","Northeast of New Guinea","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",24364,1807,2.3,-4.08,145.037,10
+251030,"Karkar","Papua New Guinea","Melanesia and Australia","Northeast of New Guinea","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",20127,1839,1.75,-4.649,145.964,4
+251050,"Long Island","Papua New Guinea","Melanesia and Australia","Northeast of New Guinea","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",4017,1280,2.25,-5.358,147.12,4
+251070,"Ritter Island","Papua New Guinea","Melanesia and Australia","Northeast of New Guinea","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",4323,140,1.33333333333333,-5.52,148.121,6
+252010,"Langila","Papua New Guinea","Melanesia and Australia","New Britain","Complex","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",11641,1330,2,-5.525,148.42,16
+252070,"Garbuna Group","Papua New Guinea","Melanesia and Australia","New Britain","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",58235,564,1.66666666666667,-5.416,150.027,3
+252080,"Pago","Papua New Guinea","Melanesia and Australia","New Britain","Caldera","Dacite","Andesite / Basaltic Andesite",37824,724,2,-5.576,150.516,3
+252120,"Ulawun","Papua New Guinea","Melanesia and Australia","New Britain","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",10577,2334,2,-5.05,151.33,26
+252130,"Lolobau","Papua New Guinea","Melanesia and Australia","New Britain","Caldera","Basalt / Picro-Basalt","Dacite",9659,858,4,-4.92,151.158,1
+252140,"Rabaul","Papua New Guinea","Melanesia and Australia","New Britain","Pyroclastic shield","Dacite","Andesite / Basaltic Andesite",199361,688,2.38461538461538,-4.271,152.203,13
+253040,"Waiowa","Papua New Guinea","Melanesia and Australia","New Guinea and D'Entrecasteaux Islands","Pyroclastic cone","Trachyandesite / Basaltic trachy-andesite",NA,10041,640,3,-9.57,149.075,1
+255020,"Bagana","Papua New Guinea","Melanesia and Australia","Bougainville and Solomon Islands","Lava cone","Andesite / Basaltic Andesite",NA,7861,1855,2.66666666666667,-6.137,155.196,3
+255060,"Kavachi","Solomon Islands","Melanesia and Australia","Bougainville and Solomon Islands","Submarine","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",802,-20,1.375,-9.02,157.95,16
+256010,"Tinakula","Solomon Islands","Melanesia and Australia","Santa Cruz Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,19,851,2,-10.38,165.8,6
+257020,"Gaua","Vanuatu","Melanesia and Australia","Vanuatu","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",2848,797,2,-14.27,167.5,8
+257030,"Aoba","Vanuatu","Melanesia and Australia","Vanuatu","Shield","Basalt / Picro-Basalt",NA,4326,1496,NA,-15.4,167.83,2
+257040,"Ambrym","Vanuatu","Melanesia and Australia","Vanuatu","Pyroclastic shield","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",10826,1334,2.44444444444444,-16.25,168.12,18
+257050,"Lopevi","Vanuatu","Melanesia and Australia","Vanuatu","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",7942,1413,2.21428571428571,-16.507,168.346,14
+257060,"Epi","Vanuatu","Melanesia and Australia","Vanuatu","Stratovolcano(es)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",7819,833,2.5,-16.68,168.37,2
+257070,"Kuwae","Vanuatu","Melanesia and Australia","Vanuatu","Caldera","Basalt / Picro-Basalt","Dacite",5725,-2,2,-16.829,168.536,4
+258001,"Eastern Gemini Seamount","France","Melanesia and Australia","Pacific Ocean (southwestern)","Submarine","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,-80,1,-20.98,170.28,1
+260010,"Barren Island","India","Indonesia","Andaman Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",645,354,NA,12.278,93.858,7
+261020,"Seulawah Agam","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite","Dacite",306345,1810,2,5.448,95.658,1
+261030,"Peuet Sague","Indonesia","Indonesia","Sumatra","Complex","Andesite / Basaltic Andesite","Dacite",16227,2801,1.33333333333333,4.914,96.329,3
+261050,"Telong, Bur ni","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite",NA,125812,2617,2,4.769,96.821,1
+261080,"Sinabung","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite","Dacite",163630,2460,2,3.17,98.392,2
+261120,"Sorikmarapi","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite","Dacite",90257,2145,1.66666666666667,0.686,99.539,3
+261140,"Marapi","Indonesia","Indonesia","Sumatra","Complex","Andesite / Basaltic Andesite","Trachyandesite / Basaltic trachy-andesite",818039,2891,1.73333333333333,-0.381,100.473,30
+261150,"Tandikat","Indonesia","Indonesia","Sumatra","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,604282,2854,1,-0.39,100.331,1
+261160,"Talang","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite",NA,214975,2597,1.33333333333333,-0.978,100.679,6
+261170,"Kerinci","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite",NA,264107,3800,1.83333333333333,-1.697,101.264,12
+261180,"Sumbing","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite","Dacite",49583,2507,2,-2.414,101.728,1
+261220,"Kaba","Indonesia","Indonesia","Sumatra","Stratovolcano","Andesite / Basaltic Andesite",NA,333750,1952,1.8,-3.52,102.62,5
+261230,"Dempo","Indonesia","Indonesia","Sumatra","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,96058,3173,1.8,-4.03,103.13,15
+262000,"Krakatau","Indonesia","Indonesia","Krakatau","Caldera","Andesite / Basaltic Andesite","Dacite",8027,813,NA,-6.102,105.423,24
+263040,"Perbakti-Gagak","Indonesia","Indonesia","Java","Stratovolcano(es)","Andesite / Basaltic Andesite","Rhyolite",2333456,1699,1,-6.75,106.7,1
+263060,"Gede","Indonesia","Indonesia","Java","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",2315469,3008,2.14285714285714,-6.77,106.965,14
+263090,"Tangkubanparahu","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",5729309,2084,1.33333333333333,-6.77,107.6,9
+263100,"Papandayan","Indonesia","Indonesia","Java","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,1637971,2665,1.75,-7.32,107.73,4
+263130,"Guntur","Indonesia","Indonesia","Java","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",3412038,2249,2.09090909090909,-7.143,107.84,11
+263140,"Galunggung","Indonesia","Indonesia","Java","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",2382939,2168,2.75,-7.25,108.058,4
+263170,"Cereme","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite",NA,3058015,3078,2,-6.892,108.4,3
+263180,"Slamet","Indonesia","Indonesia","Java","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",2904026,3428,1.89285714285714,-7.242,109.208,28
+263200,"Dieng Volcanic Complex","Indonesia","Indonesia","Java","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",1886942,2565,1.07692307692308,-7.2,109.92,13
+263210,"Sundoro","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",2086299,3136,1.83333333333333,-7.3,109.992,6
+263250,"Merapi","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite","Trachyandesite / Basaltic trachy-andesite",4348473,2968,NA,-7.542,110.442,16
+263260,"Lawu","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",2344575,3265,1,-7.625,111.192,1
+263280,"Kelut","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",2087876,1731,2.90909090909091,-7.93,112.308,11
+263300,"Semeru","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",1022197,3676,2,-8.108,112.92,14
+263310,"Tengger Caldera","Indonesia","Indonesia","Java","Stratovolcano(es)","Trachyandesite / Basaltic trachy-andesite","Basalt / Picro-Basalt",1420878,2329,1.96551724137931,-7.942,112.95,29
+263320,"Lamongan","Indonesia","Indonesia","Java","Stratovolcano","Basalt / Picro-Basalt",NA,2193829,1651,2.05555555555556,-7.979,113.342,18
+263340,"Raung","Indonesia","Indonesia","Java","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",581515,3332,2.17391304347826,-8.125,114.042,23
+263350,"Ijen","Indonesia","Indonesia","Java","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",664199,2799,1.28571428571429,-8.058,114.242,7
+264010,"Batur","Indonesia","Indonesia","Lesser Sunda Islands","Caldera","Andesite / Basaltic Andesite","Dacite",937766,1717,1.66666666666667,-8.242,115.375,9
+264020,"Agung","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,968381,3142,5,-8.342,115.508,1
+264030,"Rinjani","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",1374441,3726,2,-8.42,116.47,9
+264050,"Sangeang Api","Indonesia","Indonesia","Lesser Sunda Islands","Complex","Trachybasalt / Tephrite Basanite","Trachyandesite / Basaltic trachy-andesite",39301,1949,2.33333333333333,-8.2,119.07,3
+264110,"Iya","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",62974,637,2.5,-8.897,121.645,2
+264140,"Kelimutu","Indonesia","Indonesia","Lesser Sunda Islands","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",118605,1639,1,-8.77,121.82,1
+264150,"Paluweh","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",5284,875,2.14285714285714,-8.32,121.708,7
+264160,"Egon","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,250257,1703,1.5,-8.67,122.45,4
+264180,"Lewotobi","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,284976,1703,2,-8.542,122.775,12
+264200,"Leroboleng","Indonesia","Indonesia","Lesser Sunda Islands","Complex","Andesite / Basaltic Andesite",NA,358627,1117,3,-8.358,122.842,1
+264220,"Iliboleng","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",260688,1659,1.5,-8.342,123.258,6
+264230,"Lewotolo","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Andesite / Basaltic Andesite","Trachyandesite / Basaltic trachy-andesite",159023,1423,NA,-8.272,123.505,2
+264250,"Iliwerung","Indonesia","Indonesia","Lesser Sunda Islands","Complex","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",79569,1018,1.85714285714286,-8.53,123.57,7
+264260,"Tara, Batu","Indonesia","Indonesia","Lesser Sunda Islands","Stratovolcano","Trachybasalt / Tephrite Basanite","Trachyandesite / Basaltic trachy-andesite",207,748,2,-7.792,123.579,1
+264270,"Sirung","Indonesia","Indonesia","Lesser Sunda Islands","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",69744,862,1.4,-8.508,124.13,5
+265040,"Wurlali","Indonesia","Indonesia","Banda Sea","Stratovolcano","Andesite / Basaltic Andesite",NA,720,868,2,-7.125,128.675,1
+265090,"Banda Api","Indonesia","Indonesia","Banda Sea","Caldera","Dacite","Andesite / Basaltic Andesite",5810,640,2.25,-4.525,129.871,4
+266030,"Soputan","Indonesia","Indonesia","Sulawesi","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",501336,1784,2.16666666666667,1.108,124.73,18
+266100,"Lokon-Empung","Indonesia","Indonesia","Sulawesi","Stratovolcano","Basalt / Picro-Basalt","Dacite",942160,1580,NA,1.358,124.792,14
+266110,"Mahawu","Indonesia","Indonesia","Sulawesi","Stratovolcano","Andesite / Basaltic Andesite","Dacite",878193,1324,2,1.358,124.858,1
+267010,"Ruang","Indonesia","Indonesia","Sangihe Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",2766,725,2.57142857142857,2.3,125.37,7
+267020,"Karangetang [Api Siau]","Indonesia","Indonesia","Sangihe Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",11066,1784,NA,2.78,125.4,22
+267030,"Banua Wuhu","Indonesia","Indonesia","Sangihe Islands","Submarine","Andesite / Basaltic Andesite",NA,4586,-5,2.25,3.138,125.491,4
+267040,"Awu","Indonesia","Indonesia","Sangihe Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",52725,1320,2.83333333333333,3.67,125.5,6
+268010,"Dukono","Indonesia","Indonesia","Halmahera","Complex","Andesite / Basaltic Andesite","Trachyte / Trachyandesite",101506,1335,3,1.68,127.88,1
+268030,"Ibu","Indonesia","Indonesia","Halmahera","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",64581,1325,1,1.488,127.63,3
+268040,"Gamkonora","Indonesia","Indonesia","Halmahera","Stratovolcano","Andesite / Basaltic Andesite",NA,61376,1635,1.6,1.38,127.53,5
+268060,"Gamalama","Indonesia","Indonesia","Halmahera","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,308691,1715,NA,0.8,127.33,41
+268070,"Makian","Indonesia","Indonesia","Halmahera","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",21360,1357,2.8,0.32,127.4,5
+271011,"Parker","Philippines","Philippines and SE Asia","Mindanao","Stratovolcano","Andesite / Basaltic Andesite","Dacite",484481,1824,5,6.113,124.892,1
+271060,"Ragang","Philippines","Philippines and SE Asia","Mindanao","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",331796,2815,2,7.7,124.5,1
+272020,"Kanlaon","Philippines","Philippines and SE Asia","Central Philippines","Stratovolcano","Andesite / Basaltic Andesite","Trachyandesite / Basaltic trachy-andesite",923257,2435,1.57894736842105,10.412,123.132,19
+273010,"Bulusan","Philippines","Philippines and SE Asia","Luzon","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",518705,1565,2.2,12.77,124.05,10
+273030,"Mayon","Philippines","Philippines and SE Asia","Luzon","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",1166441,2462,2.17647058823529,13.257,123.685,34
+273070,"Taal","Philippines","Philippines and SE Asia","Luzon","Caldera","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",2380326,311,2.5,14.002,120.993,12
+273083,"Pinatubo","Philippines","Philippines and SE Asia","Luzon","Stratovolcano","Dacite","Andesite / Basaltic Andesite",1148684,1486,3.5,15.13,120.35,2
+274020,"Didicas","Philippines","Philippines and SE Asia","North of Luzon","Compound","Andesite / Basaltic Andesite",NA,132,228,2,19.077,122.202,1
+274030,"Babuyan Claro","Philippines","Philippines and SE Asia","North of Luzon","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",222,1080,2,19.523,121.94,1
+275001,"Hainan Dao","China","Philippines and SE Asia","Southeast Asia","Pyroclastic cone(s)","Basalt / Picro-Basalt",NA,1731229,0,NA,19.7,110.1,1
+275060,"Cendres, Ile des","Vietnam","Philippines and SE Asia","Southeast Asia","Submarine","Basalt / Picro-Basalt",NA,0,-20,2,10.158,109.014,1
+282020,"Io-Torishima","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Complex","Andesite / Basaltic Andesite",NA,0,212,1.33333333333333,27.881,128.223,3
+282030,"Suwanosejima","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,325,796,2,29.638,129.714,9
+282050,"Kuchinoerabujima","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,5348,657,2.27272727272727,30.443,130.217,11
+282060,"Kikai","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Caldera","Rhyolite","Basalt / Picro-Basalt",152,704,1,30.789,130.308,2
+282070,"Ibusuki Volcanic Field","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Caldera(s)","Andesite / Basaltic Andesite","Rhyolite",171590,924,4,31.22,130.57,1
+282080,"Aira","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Caldera","Andesite / Basaltic Andesite","Dacite",905254,1117,2,31.593,130.657,10
+282090,"Kirishimayama","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Shield","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",407050,1700,1.78947368421053,31.934,130.862,19
+282100,"Unzendake","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Complex","Andesite / Basaltic Andesite","Dacite",444737,1483,2,32.761,130.299,3
+282110,"Asosan","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Caldera","Andesite / Basaltic Andesite","Dacite",234591,1592,1.75,32.884,131.104,44
+282120,"Kujusan","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",181541,1791,1,33.086,131.249,1
+282130,"Yufu-Tsurumi","Japan","Japan, Taiwan, Marianas","Ryukyu Islands and Kyushu","Lava dome(s)","Andesite / Basaltic Andesite","Dacite",709942,1584,3,33.282,131.39,1
+283010,"Izu-Tobu","Japan","Japan, Taiwan, Marianas","Honshu","Pyroclastic cone(s)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",447660,1406,1,34.9,139.098,1
+283030,"Fujisan","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano","Basalt / Picro-Basalt",NA,906969,3776,4,35.361,138.728,3
+283040,"Ontakesan","Japan","Japan, Taiwan, Marianas","Honshu","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",86634,3067,1,35.893,137.48,1
+283050,"Hakusan","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano","Andesite / Basaltic Andesite","Dacite",63965,2702,2,36.155,136.771,1
+283070,"Yakedake","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",156542,2455,1.9047619047619,36.227,137.587,21
+283090,"Niigata-Yakeyama","Japan","Japan, Taiwan, Marianas","Honshu","Lava dome","Andesite / Basaltic Andesite","Dacite",226866,2400,1.28571428571429,36.921,138.036,7
+283110,"Asamayama","Japan","Japan, Taiwan, Marianas","Honshu","Complex","Andesite / Basaltic Andesite","Dacite",457576,2568,NA,36.406,138.523,57
+283120,"Kusatsu-Shiranesan","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",434049,2165,1.30769230769231,36.618,138.528,13
+283150,"Nasudake","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",298717,1915,1,37.125,139.963,2
+283160,"Bandaisan","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano","Andesite / Basaltic Andesite",NA,327454,1816,4,37.601,140.072,1
+283170,"Adatarayama","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,717078,1728,1.66666666666667,37.647,140.281,3
+283180,"Azumayama","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",548195,1949,1,37.735,140.244,6
+283190,"Zaozan","Japan","Japan, Taiwan, Marianas","Honshu","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",550409,1841,1.8,38.144,140.44,10
+283220,"Chokaisan","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",185681,2236,1,39.099,140.049,1
+283230,"Akita-Komagatake","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano(es)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",216708,1637,2,39.761,140.799,2
+283240,"Iwatesan","Japan","Japan, Taiwan, Marianas","Honshu","Complex","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",415920,2038,2,39.853,141.001,2
+283260,"Akita-Yakeyama","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano","Andesite / Basaltic Andesite",NA,55493,1366,1,39.964,140.757,3
+283270,"Iwakisan","Japan","Japan, Taiwan, Marianas","Honshu","Stratovolcano","Andesite / Basaltic Andesite",NA,465065,1625,2,40.656,140.303,2
+284010,"Izu-Oshima","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",8375,758,1.37931034482759,34.724,139.394,29
+284040,"Miyakejima","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",3474,775,1.73333333333333,34.094,139.526,15
+284070,"Myojinsho","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Submarine","Dacite","Andesite / Basaltic Andesite",0,11,0.5,31.888,139.918,2
+284090,"Izu-Torishima","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Stratovolcano","Basalt / Picro-Basalt","Dacite",21,394,2,30.484,140.303,4
+284096,"Nishinoshima","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Caldera","Andesite / Basaltic Andesite",NA,0,25,2,27.247,140.874,1
+284100,"Kaitoku Seamount","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Submarine","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,-95,0,29.233,140.754,1
+284120,"Ioto","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Caldera","Trachyandesite / Basaltic trachy-andesite","Trachyte / Trachyandesite",1189,169,1,24.751,141.289,11
+284130,"Fukutoku-Oka-no-Ba","Japan","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Submarine","Trachyandesite / Basaltic trachy-andesite",NA,19,-29,1.66666666666667,24.285,141.481,9
+284133,"Fukujin","United States","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Submarine","Andesite / Basaltic Andesite",NA,0,-217,0.5,21.93,143.47,2
+284140,"Farallon de Pajaros","United States","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,0,360,1.33333333333333,20.538,144.896,3
+284141,"Ahyi","United States","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Submarine","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",0,-75,0,20.42,145.03,1
+284142,"Supply Reef","United States","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Submarine","Andesite / Basaltic Andesite",NA,0,-8,0,20.13,145.1,2
+284170,"Pagan","United States","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Stratovolcano(es)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,570,1.75,18.13,145.8,8
+284200,"Anatahan","United States","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Stratovolcano","Andesite / Basaltic Andesite","Dacite",0,790,2.5,16.35,145.67,4
+284202,"Ruby","United States","Japan, Taiwan, Marianas","Izu, Volcano, and Mariana Islands","Submarine","Basalt / Picro-Basalt",NA,0,-230,0,15.62,145.57,1
+285020,"Hokkaido-Komagatake","Japan","Japan, Taiwan, Marianas","Hokkaido","Stratovolcano","Andesite / Basaltic Andesite",NA,234213,1131,2.45454545454545,42.063,140.677,11
+285030,"Toya","Japan","Japan, Taiwan, Marianas","Hokkaido","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",214565,733,3,42.544,140.839,3
+285040,"Shikotsu","Japan","Japan, Taiwan, Marianas","Hokkaido","Caldera","Andesite / Basaltic Andesite","Dacite",316816,1320,1.82758620689655,42.688,141.38,29
+285050,"Tokachidake","Japan","Japan, Taiwan, Marianas","Hokkaido","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",60382,2077,1,43.418,142.686,7
+285061,"Maruyama","Japan","Japan, Taiwan, Marianas","Hokkaido","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",3682,2013,2,43.453,143.036,1
+285070,"Akan","Japan","Japan, Taiwan, Marianas","Hokkaido","Caldera","Andesite / Basaltic Andesite","Dacite",9756,1499,1,43.384,144.013,15
+285090,"Shiretoko-Iozan","Japan","Japan, Taiwan, Marianas","Hokkaido","Stratovolcano","Andesite / Basaltic Andesite",NA,7890,1562,2,44.133,145.161,2
+290030,"Chachadake [Tiatia]","Japan - administered by Russia","Kuril Islands","Kuril Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",896,1822,3,44.353,146.252,2
+290070,"Etorofu-Yakeyama [Grozny Group]","Japan - administered by Russia","Kuril Islands","Kuril Islands","Complex(es)","Andesite / Basaltic Andesite",NA,2417,1158,2,45.012,147.871,4
+290100,"Moyorodake [Medvezhia]","Japan - administered by Russia","Kuril Islands","Kuril Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",600,1124,1,45.389,148.838,1
+290120,"Kolokol Group","Russia","Kuril Islands","Kuril Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,128,1328,1.5,46.042,150.05,2
+290150,"Chirpoi","Russia","Kuril Islands","Kuril Islands","Caldera","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",3,742,NA,46.525,150.875,1
+290180,"Zavaritzki Caldera","Russia","Kuril Islands","Kuril Islands","Caldera","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",61,624,3,46.925,151.95,1
+290240,"Sarychev Peak","Russia","Kuril Islands","Kuril Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,143,1496,2.42857142857143,48.092,153.2,7
+290260,"Chirinkotan","Russia","Kuril Islands","Kuril Islands","Stratovolcano","Andesite / Basaltic Andesite","Dacite",0,724,1.5,48.98,153.48,2
+290300,"Kharimkotan","Russia","Kuril Islands","Kuril Islands","Stratovolcano","Andesite / Basaltic Andesite","Dacite",4,1145,5,49.12,154.508,1
+290310,"Tao-Rusyr Caldera","Russia","Kuril Islands","Kuril Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",83,1325,3,49.35,154.7,1
+290360,"Chikurachki","Russia","Kuril Islands","Kuril Islands","Stratovolcano(es)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",527,1781,2,50.324,155.461,11
+290380,"Ebeko","Russia","Kuril Islands","Kuril Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,1076,1103,1.6,50.686,156.014,5
+290390,"Alaid","Russia","Kuril Islands","Kuril Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",64,2285,2.66666666666667,50.861,155.565,6
+300060,"Mutnovsky","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Complex","Basalt / Picro-Basalt",NA,97,2288,1.66666666666667,52.449,158.196,3
+300070,"Gorely","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Caldera","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",19,1799,2,52.559,158.03,3
+300090,"Koryaksky","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",142050,3430,1.5,53.321,158.712,2
+300100,"Avachinsky","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",180016,2717,2.63636363636364,53.256,158.836,11
+300125,"Akademia Nauk","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",615,1180,3,53.98,159.45,1
+300130,"Karymsky","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Dacite",291,1513,3,54.049,159.443,3
+300230,"Kizimen","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",197,2334,3,55.131,160.32,1
+300240,"Tolbachik","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Shield","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",225,3611,NA,55.832,160.326,10
+300250,"Bezymianny","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Dacite",47,2882,2.34210526315789,55.972,160.595,38
+300260,"Kliuchevskoi","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",292,4754,2.02380952380952,56.056,160.642,42
+300270,"Shiveluch","Russia","Kamchatka and Mainland Asia","Kamchatka Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",1718,3283,2.30769230769231,56.653,161.36,13
+311020,"Kiska","United States","Alaska","Aleutian Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",0,1220,2,52.103,177.602,2
+311070,"Gareloi","United States","Alaska","Aleutian Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,1573,3,51.79,-178.794,2
+311110,"Kanaga","United States","Alaska","Aleutian Islands","Stratovolcano","Andesite / Basaltic Andesite","Trachyandesite / Basaltic trachy-andesite",0,1307,2,51.923,-177.168,3
+311120,"Great Sitkin","United States","Alaska","Aleutian Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",0,1740,NA,52.076,-176.13,2
+311130,"Kasatochi","United States","Alaska","Aleutian Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,314,4,52.177,-175.508,1
+311160,"Atka","United States","Alaska","Aleutian Islands","Stratovolcano(es)","Basalt / Picro-Basalt","Dacite",207,1451,2,52.332,-174.137,1
+311161,"Korovin","United States","Alaska","Aleutian Islands","Stratovolcano(es)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",205,1533,1.75,52.381,-174.154,4
+311180,"Seguam","United States","Alaska","Aleutian Islands","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",0,1054,1.66666666666667,52.315,-172.51,3
+311190,"Amukta","United States","Alaska","Aleutian Islands","Stratovolcano","Andesite / Basaltic Andesite",NA,0,1066,1,52.5,-171.252,1
+311210,"Yunaska","United States","Alaska","Aleutian Islands","Shield","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",0,550,3,52.643,-170.629,1
+311240,"Cleveland","United States","Alaska","Aleutian Islands","Stratovolcano","Andesite / Basaltic Andesite","Dacite",0,1730,NA,52.825,-169.944,17
+311290,"Okmok","United States","Alaska","Aleutian Islands","Shield","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,1073,2.75,53.43,-168.13,8
+311300,"Bogoslof","United States","Alaska","Aleutian Islands","Submarine","Trachyandesite / Basaltic trachy-andesite","Basalt / Picro-Basalt",0,150,3,53.93,-168.03,2
+311310,"Makushin","United States","Alaska","Aleutian Islands","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",3437,1800,1,53.891,-166.923,2
+311320,"Akutan","United States","Alaska","Aleutian Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",233,1303,2,54.134,-165.986,11
+311340,"Westdahl","United States","Alaska","Aleutian Islands","Stratovolcano?","Basalt / Picro-Basalt","Trachyandesite / Basaltic trachy-andesite",0,1654,2.66666666666667,54.518,-164.65,3
+311360,"Shishaldin","United States","Alaska","Aleutian Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",10,2857,2,54.756,-163.97,10
+312030,"Pavlof","United States","Alaska","Alaska Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",0,2493,2.26666666666667,55.417,-161.894,15
+312060,"Kupreanof","United States","Alaska","Alaska Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",11,1895,1,56.011,-159.797,1
+312070,"Veniaminof","United States","Alaska","Alaska Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",0,2507,1.8,56.17,-159.38,15
+312090,"Aniakchak","United States","Alaska","Alaska Peninsula","Caldera","Andesite / Basaltic Andesite","Dacite",36,1341,4,56.88,-158.17,1
+312110,"Chiginagak","United States","Alaska","Alaska Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Dacite",0,2221,1,57.135,-156.99,1
+312131,"Ukinrek Maars","United States","Alaska","Alaska Peninsula","Maar(s)","Basalt / Picro-Basalt","Dacite",0,91,3,57.832,-156.51,1
+312160,"Trident","United States","Alaska","Alaska Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Dacite",0,1864,2.75,58.236,-155.1,8
+312170,"Katmai","United States","Alaska","Alaska Peninsula","Stratovolcano","Andesite / Basaltic Andesite","Dacite",0,2047,3,58.28,-154.963,1
+312260,"Fourpeaked","United States","Alaska","Alaska Peninsula","Stratovolcano","Andesite / Basaltic Andesite",NA,0,2105,2,58.77,-153.672,1
+313010,"Augustine","United States","Alaska","Alaska (southwestern)","Lava dome(s)","Andesite / Basaltic Andesite","Dacite",0,1252,2.83333333333333,59.363,-153.43,6
+313030,"Redoubt","United States","Alaska","Alaska (southwestern)","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",1,3108,3,60.485,-152.742,5
+313040,"Spurr","United States","Alaska","Alaska (southwestern)","Stratovolcano","Andesite / Basaltic Andesite",NA,0,3374,4,61.299,-152.251,2
+315020,"Wrangell","United States","Alaska","Alaska (eastern)","Shield","Andesite / Basaltic Andesite","Dacite",0,4317,1,62,-144.02,3
+321010,"Baker","United States","Canada and Western USA","USA (Washington)","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",8568,3285,2,48.777,-121.813,1
+321030,"Rainier","United States","Canada and Western USA","USA (Washington)","Stratovolcano","Andesite / Basaltic Andesite",NA,3187,4392,1,46.853,-121.76,1
+321050,"St. Helens","United States","Canada and Western USA","USA (Washington)","Stratovolcano","Dacite","Andesite / Basaltic Andesite",2221,2549,2.83333333333333,46.2,-122.18,6
+322010,"Hood","United States","Canada and Western USA","USA (Oregon)","Stratovolcano","Andesite / Basaltic Andesite",NA,9721,3426,2,45.374,-121.695,1
+323080,"Lassen Volcanic Center","United States","Canada and Western USA","USA (California)","Stratovolcano","Andesite / Basaltic Andesite","Dacite",2340,3187,3,40.492,-121.508,1
+331020,"CoAxial Segment","Undersea Features","Hawaii and Pacific Ocean","Pacific Ocean (northern)","Submarine","Basalt / Picro-Basalt",NA,0,-2400,0,46.52,-129.58,1
+331021,"Axial Seamount","Undersea Features","Hawaii and Pacific Ocean","Pacific Ocean (northern)","Submarine","Basalt / Picro-Basalt",NA,0,-1410,0,45.95,-130,1
+331031,"North Gorda Ridge","Undersea Features","Hawaii and Pacific Ocean","Pacific Ocean (northern)","Submarine","Basalt / Picro-Basalt",NA,0,-3000,0,42.67,-126.78,1
+332000,"Loihi","United States","Hawaii and Pacific Ocean","Hawaiian Islands","Submarine","Basalt / Picro-Basalt",NA,0,-975,0,18.92,-155.27,1
+332010,"Kilauea","United States","Hawaii and Pacific Ocean","Hawaiian Islands","Shield","Basalt / Picro-Basalt",NA,8495,1222,0.203703703703704,19.421,-155.287,54
+332020,"Mauna Loa","United States","Hawaii and Pacific Ocean","Hawaiian Islands","Shield","Basalt / Picro-Basalt",NA,1906,4170,0.257142857142857,19.475,-155.608,35
+333010,"Teahitia","France","Hawaii and Pacific Ocean","Pacific Ocean (central)","Submarine","Trachybasalt / Tephrite Basanite","Basalt / Picro-Basalt",0,-1743,0,-17.564,-148.821,4
+333020,"Rocard","France","Hawaii and Pacific Ocean","Pacific Ocean (central)","Submarine","Trachyte / Trachyandesite","Basalt / Picro-Basalt",0,-2515,0,-17.662,-148.586,2
+333030,"Moua Pihaa","France","Hawaii and Pacific Ocean","Pacific Ocean (central)","Submarine","Trachybasalt / Tephrite Basanite",NA,0,-312,0,-18.325,-148.525,2
+333060,"Macdonald","Undersea Features","Hawaii and Pacific Ocean","Pacific Ocean (central)","Submarine","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",0,-39,0,-28.98,-140.25,10
+334050,"Unnamed","Undersea Features","Hawaii and Pacific Ocean","Pacific Ocean (eastern)","Submarine","Basalt / Picro-Basalt",NA,0,-2500,0,9.83,-104.3,1
+341020,"B?rcena","Mexico","M_xico and Central America","Mexico","Pyroclastic cone(s)","Trachyte / Trachyandesite","Trachybasalt / Tephrite Basanite",0,332,3,19.3,-110.82,1
+341021,"Socorro","Mexico","M_xico and Central America","Mexico","Shield","Trachyte / Trachyandesite","Rhyolite",0,1050,1,18.78,-110.95,2
+341040,"Colima","Mexico","M_xico and Central America","Mexico","Stratovolcano(es)","Andesite / Basaltic Andesite",NA,303490,3850,NA,19.514,-103.62,17
+341060,"Michoac?n-Guanajuato","Mexico","M_xico and Central America","Mexico","Pyroclastic cone(s)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",5783287,3860,4,19.85,-101.75,1
+341090,"Popocat_petl","Mexico","M_xico and Central America","Mexico","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",634054,5426,2.16666666666667,19.023,-98.622,6
+341120,"Chich?n, El","Mexico","M_xico and Central America","Mexico","Lava dome(s)","Trachyandesite / Basaltic trachy-andesite",NA,143015,1150,5,17.36,-93.228,1
+342030,"Santa Mar?a","Guatemala","M_xico and Central America","Guatemala","Stratovolcano","Dacite","Andesite / Basaltic Andesite",1259600,3772,4.5,14.756,-91.552,2
+342040,"Almolonga","Guatemala","M_xico and Central America","Guatemala","Stratovolcano","Dacite","Andesite / Basaltic Andesite",1126942,3173,2,14.797,-91.519,2
+342080,"Acatenango","Guatemala","M_xico and Central America","Guatemala","Stratovolcano","Andesite / Basaltic Andesite","Dacite",1042836,3976,3,14.501,-90.876,1
+342090,"Fuego","Guatemala","M_xico and Central America","Guatemala","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",1016339,3763,2.7037037037037,14.473,-90.88,27
+342110,"Pacaya","Guatemala","M_xico and Central America","Guatemala","Complex","Basalt / Picro-Basalt","Dacite",2454482,2552,2.2,14.381,-90.601,10
+343020,"Santa Ana","El Salvador","M_xico and Central America","El Salvador and Honduras","Stratovolcano","Andesite / Basaltic Andesite","Trachyandesite / Basaltic trachy-andesite",1240131,2381,2.33333333333333,13.853,-89.63,3
+343030,"Izalco","El Salvador","M_xico and Central America","El Salvador and Honduras","Stratovolcano","Andesite / Basaltic Andesite",NA,1272308,1950,1.8125,13.813,-89.633,16
+343060,"Ilopango","El Salvador","M_xico and Central America","El Salvador and Honduras","Caldera","Dacite","Andesite / Basaltic Andesite",2948989,450,3,13.672,-89.053,1
+343100,"San Miguel","El Salvador","M_xico and Central America","El Salvador and Honduras","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",796482,2130,1.5,13.434,-88.269,8
+343120,"Conchag?ita","El Salvador","M_xico and Central America","El Salvador and Honduras","Stratovolcano","Basalt / Picro-Basalt",NA,172113,505,1,13.229,-87.767,1
+344010,"Cosig?ina","Nicaragua","M_xico and Central America","Nicaragua","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",18876,872,5,12.98,-87.57,1
+344020,"San Crist?bal","Nicaragua","M_xico and Central America","Nicaragua","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",351227,1745,1.33333333333333,12.702,-87.004,18
+344040,"Telica","Nicaragua","M_xico and Central America","Nicaragua","Stratovolcano(es)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",327294,1061,1.38461538461538,12.602,-86.845,13
+344070,"Negro, Cerro","Nicaragua","M_xico and Central America","Nicaragua","Pyroclastic cone(s)","Basalt / Picro-Basalt",NA,296320,728,2.375,12.506,-86.702,16
+344080,"Pilas, Las","Nicaragua","M_xico and Central America","Nicaragua","Complex","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",299481,1088,2,12.495,-86.688,1
+344090,"Momotombo","Nicaragua","M_xico and Central America","Nicaragua","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",98583,1297,2,12.422,-86.54,1
+344100,"Masaya","Nicaragua","M_xico and Central America","Nicaragua","Caldera","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",1914707,635,1.21428571428571,11.984,-86.161,14
+344120,"Concepci?n","Nicaragua","M_xico and Central America","Nicaragua","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",92378,1700,1.61538461538462,11.538,-85.622,13
+345020,"Rinc?n de la Vieja","Costa Rica","M_xico and Central America","Costa Rica","Complex","Andesite / Basaltic Andesite","Rhyolite",78668,1916,1.33333333333333,10.83,-85.324,9
+345030,"Miravalles","Costa Rica","M_xico and Central America","Costa Rica","Stratovolcano","Andesite / Basaltic Andesite","Rhyolite",61875,2028,1,10.748,-85.153,1
+345033,"Arenal","Costa Rica","M_xico and Central America","Costa Rica","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",96512,1670,2,10.463,-84.703,1
+345040,"Po?s","Costa Rica","M_xico and Central America","Costa Rica","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",950796,2708,1.4,10.2,-84.233,15
+345060,"Iraz?","Costa Rica","M_xico and Central America","Costa Rica","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",1667528,3432,2.2,9.979,-83.852,5
+345070,"Turrialba","Costa Rica","M_xico and Central America","Costa Rica","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",672428,3340,1.75,10.025,-83.767,4
+351020,"Ruiz, Nevado del","Colombia","South America","Colombia","Stratovolcano","Andesite / Basaltic Andesite","Dacite",507608,5279,2.33333333333333,4.892,-75.324,3
+351050,"Huila, Nevado del","Colombia","South America","Colombia","Stratovolcano","Andesite / Basaltic Andesite","Dacite",56737,5364,3,2.93,-76.03,2
+351060,"Purac_","Colombia","South America","Colombia","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",335698,4650,2,2.32,-76.4,3
+351080,"Galeras","Colombia","South America","Colombia","Complex","Andesite / Basaltic Andesite",NA,630777,4276,2.1875,1.22,-77.37,16
+351100,"Cumbal","Colombia","South America","Colombia","Stratovolcano","Andesite / Basaltic Andesite","Dacite",244853,4764,2,0.95,-77.87,1
+352010,"Reventador","Ecuador","South America","Ecuador","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",4403,3562,2.8,-0.077,-77.656,5
+352020,"Guagua Pichincha","Ecuador","South America","Ecuador","Stratovolcano","Andesite / Basaltic Andesite","Dacite",2064475,4784,2,-0.171,-78.598,9
+352050,"Cotopaxi","Ecuador","South America","Ecuador","Stratovolcano","Andesite / Basaltic Andesite","Dacite",152139,5911,2.22222222222222,-0.677,-78.436,9
+352080,"Tungurahua","Ecuador","South America","Ecuador","Stratovolcano","Andesite / Basaltic Andesite","Dacite",183640,5023,3.25,-1.467,-78.442,4
+352090,"Sangay","Ecuador","South America","Ecuador","Stratovolcano","Andesite / Basaltic Andesite",NA,15130,5286,3,-2.005,-78.341,1
+353010,"Fernandina","Ecuador","South America","Galapagos Islands","Shield","Basalt / Picro-Basalt",NA,208,1476,2.1,-0.37,-91.55,10
+353020,"Wolf","Ecuador","South America","Galapagos Islands","Shield","Basalt / Picro-Basalt",NA,237,1710,1.2,0.02,-91.35,5
+353030,"Darwin","Ecuador","South America","Galapagos Islands","Shield","Basalt / Picro-Basalt",NA,343,1330,2,-0.18,-91.28,1
+353050,"Negra, Sierra","Ecuador","South America","Galapagos Islands","Shield","Basalt / Picro-Basalt",NA,983,1124,3,-0.83,-91.17,2
+353060,"Azul, Cerro","Ecuador","South America","Galapagos Islands","Shield","Basalt / Picro-Basalt",NA,314,1640,1.8,-0.92,-91.408,5
+354010,"Misti, El","Peru","South America","Peru","Stratovolcano","Andesite / Basaltic Andesite","Dacite",918280,5822,1,-16.294,-71.409,1
+354020,"Ubinas","Peru","South America","Peru","Stratovolcano","Andesite / Basaltic Andesite","Trachyandesite / Basaltic trachy-andesite",14607,5672,2,-16.355,-70.903,3
+354030,"Huaynaputina","Peru","South America","Peru","Stratovolcano","Dacite",NA,9153,4850,6,-16.608,-70.85,1
+355040,"Irruputuncu","Chile-Bolivia","South America","Northern Chile, Bolivia and Argentina","Stratovolcano","Andesite / Basaltic Andesite",NA,2852,5163,2,-20.73,-68.55,1
+355100,"L?scar","Chile","South America","Northern Chile, Bolivia and Argentina","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",570,5592,2.08333333333333,-23.37,-67.73,12
+355100,"Liscar","Chile","South America","Northern Chile, Bolivia and Argentina","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",570,5592,1,-23.37,-67.73,1
+357010,"Tupungatito","Chile-Argentina","South America","Central Chile and Argentina","Stratovolcano","Andesite / Basaltic Andesite","Dacite",6161,5660,1.75,-33.425,-69.797,4
+357021,"Maipo","Chile-Argentina","South America","Central Chile and Argentina","Caldera","Trachyandesite / Basaltic trachy-andesite","Dacite",8221,5323,2,-34.164,-69.832,1
+357040,"Planch?n-Peteroa","Chile","South America","Central Chile and Argentina","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",1345,3977,2,-35.223,-70.568,4
+357070,"Chill?n, Nevados de","Chile","South America","Central Chile and Argentina","Stratovolcano","Andesite / Basaltic Andesite","Dacite",3733,3212,2,-36.863,-71.377,2
+357080,"Antuco","Chile","South America","Central Chile and Argentina","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",3872,2979,2.5,-37.406,-71.349,2
+357090,"Copahue","Chile-Argentina","South America","Central Chile and Argentina","Stratovolcano","Trachybasalt / Tephrite Basanite","Andesite / Basaltic Andesite",3042,2953,2,-37.856,-71.183,2
+357100,"Lonquimay","Chile","South America","Central Chile and Argentina","Stratovolcano","Andesite / Basaltic Andesite","Dacite",13635,2865,3,-38.377,-71.58,1
+357110,"Llaima","Chile","South America","Central Chile and Argentina","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",18568,3125,2.05,-38.692,-71.729,20
+357120,"Villarrica","Chile","South America","Central Chile and Argentina","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",35118,2847,1.67741935483871,-39.42,-71.93,31
+357130,"Mocho-Choshuenco","Chile","South America","Central Chile and Argentina","Stratovolcano(es)","Andesite / Basaltic Andesite","Dacite",16633,2422,2,-39.927,-72.027,1
+357140,"Carr?n-Los Venados","Chile","South America","Central Chile and Argentina","Pyroclastic cone(s)","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",9001,1114,3,-40.35,-72.07,2
+357150,"Puyehue-Cord?n Caulle","Chile","South America","Central Chile and Argentina","Stratovolcano","Andesite / Basaltic Andesite","Dacite",7163,2236,3,-40.59,-72.117,3
+358010,"Osorno","Chile","South America","Southern Chile and Argentina","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",11964,2652,2.5,-41.1,-72.493,2
+358020,"Calbuco","Chile","South America","Southern Chile and Argentina","Stratovolcano","Andesite / Basaltic Andesite",NA,32265,2003,3,-41.326,-72.614,4
+358040,"Minchinm?vida","Chile","South America","Southern Chile and Argentina","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",7989,2404,0,-42.793,-72.439,1
+358041,"Chait_n","Chile","South America","Southern Chile and Argentina","Caldera","Rhyolite",NA,9280,1122,4,-42.833,-72.646,1
+358057,"Hudson, Cerro","Chile","South America","Southern Chile and Argentina","Stratovolcano","Basalt / Picro-Basalt","Trachyandesite / Basaltic trachy-andesite",28,1905,NA,-45.9,-72.97,3
+358060,"Lautaro","Chile","South America","Southern Chile and Argentina","Stratovolcano","Dacite",NA,46,3607,2,-49.02,-73.55,1
+358090,"Fueguino","Chile","South America","Southern Chile and Argentina","Lava dome(s)","Andesite / Basaltic Andesite",NA,294,150,2,-54.95,-70.25,1
+360050,"Soufri?re Hills","United Kingdom","West Indies","West Indies","Stratovolcano","Andesite / Basaltic Andesite","Dacite",9458,915,3,16.72,-62.18,3
+360060,"Soufri?re Guadeloupe","France","West Indies","West Indies","Stratovolcano","Andesite / Basaltic Andesite","Dacite",256899,1467,1.75,16.044,-61.664,4
+360101,"Watt, Morne","Dominica","West Indies","West Indies","Stratovolcano(es)","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",63178,1224,1.5,15.307,-61.305,2
+360120,"Pel_e","France","West Indies","West Indies","Stratovolcano","Andesite / Basaltic Andesite",NA,382633,1394,3,14.809,-61.165,3
+360150,"Soufri?re St. Vincent","Saint Vincent and the Grenadines","West Indies","West Indies","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",103882,1220,2.5,13.33,-61.18,6
+360160,"Kick 'em Jenny","Grenada","West Indies","West Indies","Submarine","Basalt / Picro-Basalt",NA,72786,-185,0.0909090909090909,12.3,-61.64,11
+371020,"Reykjanes","Iceland","Iceland and Arctic Ocean","Iceland (southwestern)","Crater rows","Basalt / Picro-Basalt",NA,15542,230,2,63.88,-22.5,2
+372010,"Vestmannaeyjar","Iceland","Iceland and Arctic Ocean","Iceland (southern)","Submarine","Basalt / Picro-Basalt",NA,2188,279,3,63.43,-20.28,2
+372020,"Eyjafjallaj_kull","Iceland","Iceland and Arctic Ocean","Iceland (southern)","Stratovolcano","Basalt / Picro-Basalt","Trachyandesite / Basaltic trachy-andesite",786,1666,3,63.63,-19.62,2
+372030,"Katla","Iceland","Iceland and Arctic Ocean","Iceland (southern)","Subglacial","Basalt / Picro-Basalt","Rhyolite",473,1512,4.33333333333333,63.63,-19.05,6
+372070,"Hekla","Iceland","Iceland and Arctic Ocean","Iceland (southern)","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",298,1491,3.11111111111111,63.98,-19.7,9
+373010,"Gr?msv_tn","Iceland","Iceland and Arctic Ocean","Iceland (northeastern)","Caldera","Basalt / Picro-Basalt",NA,0,1725,NA,64.42,-17.33,10
+373030,"B?rdarbunga","Iceland","Iceland and Arctic Ocean","Iceland (northeastern)","Stratovolcano","Basalt / Picro-Basalt","Rhyolite",0,2009,2,64.63,-17.53,3
+373060,"Askja","Iceland","Iceland and Arctic Ocean","Iceland (northeastern)","Stratovolcano","Basalt / Picro-Basalt",NA,0,1516,3.5,65.03,-16.75,2
+373080,"Krafla","Iceland","Iceland and Arctic Ocean","Iceland (northeastern)","Caldera","Basalt / Picro-Basalt","Rhyolite",1258,818,0.666666666666667,65.73,-16.78,9
+374010,"?raefaj_kull","Iceland","Iceland and Arctic Ocean","Iceland (southeastern)","Stratovolcano","Basalt / Picro-Basalt","Rhyolite",367,2119,4.5,64,-16.65,2
+376010,"Jan Mayen","Norway","Iceland and Arctic Ocean","Atlantic Ocean (Jan Mayen)","Stratovolcano","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",0,2277,1.5,71.08,-8.17,2
+382010,"Fayal","Portugal","Atlantic Ocean","Azores","Stratovolcano","Andesite / Basaltic Andesite","Basalt / Picro-Basalt",24414,1043,2,38.6,-28.73,2
+382020,"Pico","Portugal","Atlantic Ocean","Azores","Stratovolcano","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",31521,2351,2,38.47,-28.4,1
+382030,"San Jorge","Portugal","Atlantic Ocean","Azores","Fissure vent","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",16290,1053,1.2,38.65,-28.08,5
+382050,"Terceira","Portugal","Atlantic Ocean","Azores","Stratovolcano(es)","Basalt / Picro-Basalt","Trachyte / Trachyandesite",55425,1023,2.5,38.73,-27.32,2
+382070,"Don Joao de Castro Bank","Portugal","Atlantic Ocean","Azores","Submarine","Basalt / Picro-Basalt",NA,0,-13,3,38.23,-26.63,1
+382080,"Sete Cidades","Portugal","Atlantic Ocean","Azores","Stratovolcano","Trachyte / Trachyandesite","Trachybasalt / Tephrite Basanite",102848,856,2.33333333333333,37.87,-25.78,3
+382081,"Picos Volcanic System","Portugal","Atlantic Ocean","Azores","Pyroclastic cone(s)","Trachybasalt / Tephrite Basanite",NA,123990,350,2,37.78,-25.67,1
+382090,"Agua de Pau","Portugal","Atlantic Ocean","Azores","Stratovolcano","Trachyte / Trachyandesite","Trachybasalt / Tephrite Basanite",113131,947,3.5,37.77,-25.47,2
+382100,"Furnas","Portugal","Atlantic Ocean","Azores","Stratovolcano","Trachyte / Trachyandesite","Basalt / Picro-Basalt",87865,805,5,37.77,-25.32,1
+383010,"La Palma","Spain","Atlantic Ocean","Canary Islands","Stratovolcano(es)","Trachybasalt / Tephrite Basanite","Phono-tephrite /  Tephri-phonolite",55922,2426,2,28.57,-17.83,6
+383020,"Hierro","Spain","Atlantic Ocean","Canary Islands","Shield","Trachybasalt / Tephrite Basanite","Basalt / Picro-Basalt",20321,1500,NA,27.73,-18.03,1
+383030,"Tenerife","Spain","Atlantic Ocean","Canary Islands","Stratovolcano","Phonolite","Trachybasalt / Tephrite Basanite",337660,3715,2.25,28.271,-16.641,4
+383060,"Lanzarote","Spain","Atlantic Ocean","Canary Islands","Fissure vent(s)","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",164123,670,2.5,29.03,-13.63,2
+384010,"Fogo","Cape Verde","Atlantic Ocean","Cape Verde Islands","Stratovolcano","Foidite","Trachybasalt / Tephrite Basanite",37650,2829,2,14.95,-24.35,7
+386010,"Tristan da Cunha","United Kingdom","Atlantic Ocean","Atlantic Ocean (southern)","Shield","Trachybasalt / Tephrite Basanite","Basalt / Picro-Basalt",12,2060,2,-37.092,-12.28,1
+386011,"Nightingale Island","United Kingdom","Atlantic Ocean","Atlantic Ocean (southern)","Stratovolcano","Trachyte / Trachyandesite","Trachyandesite / Basaltic trachy-andesite",27,365,0,-37.42,-12.48,1
+390030,"Deception Island","Antarctica","Antarctica","Antarctica and South Sandwich Islands","Caldera","Basalt / Picro-Basalt","Trachybasalt / Tephrite Basanite",0,602,3,-63.001,-60.652,1
+390080,"Bristol Island","United Kingdom","Antarctica","Antarctica and South Sandwich Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,1100,2.5,-59.063,-26.587,2
+390081,"Montagu Island","United Kingdom","Antarctica","Antarctica and South Sandwich Islands","Shield","Basalt / Picro-Basalt",NA,0,1370,1,-58.42,-26.33,1
+390090,"Michael","United Kingdom","Antarctica","Antarctica and South Sandwich Islands","Stratovolcano","Basalt / Picro-Basalt","Andesite / Basaltic Andesite",0,990,0,-57.787,-26.46,3
