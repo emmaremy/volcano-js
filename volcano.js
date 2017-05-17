@@ -5,11 +5,11 @@ var canvas = d3.select("canvas"),
 
     var projection = d3.geoOrthographic()
     .scale((height - 10) / 2)
-.translate([width / 2, height / 2])
+    .translate([width / 2, height / 2])
     .precision(0.1);
 
     var path = d3.geoPath()
-.projection(projection)
+    .projection(projection)
     .context(context);
 
 canvas.call(d3.drag()
@@ -39,7 +39,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
     if (error) throw error;
 
     var sphere = {type: "Sphere"},
-    land = topojson.feature(world, world.objects.land);
+    land = topojson.feature(world, world.objects.countries);
 
 render = function() {
     context.clearRect(0, 0, width, height);
