@@ -5,7 +5,7 @@ var svg = d3.select("svg")
 var path = d3.geoPath();
 
 var projection = d3.geoMercator()
-    .center([0,0]);
+    .center([0,0])
     .rotate([-180,0]);
 
 var path = d3.geoPath()
