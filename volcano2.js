@@ -24,7 +24,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .attr("d", path);
 
     g.selectAll("circle")
-        .data(data)
+        .datum(data)
         .enter()
       .append("circle")
         .attr("cx", function(d) {
