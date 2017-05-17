@@ -28,15 +28,15 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .datum(point)
         .enter()
       .append("circle")
-        .attr("class", "eruption")
         .attr("cx", function(d) {
+            console.log(projection(d)[0]);
             return projection(d)[0];
         })
         .attr("cy", function(d) {
+            console.log(projection(d)[1]);
             return projection(d)[1];
         })
         .attr("r", 10)
-        .style("fill", "red");
-
+        .style("fill", "red")
 
 });
