@@ -25,10 +25,11 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .attr("fill", "green")
         .attr("d", path);
 
-    svg.selectAll("circle")
+    g.selectAll("circle")
         .datum(data)
         .enter()
       .append("circle")
+        .attr("class", "eruption")
         .attr("cx", function(d) {
             return projection(d)[0];
         })
