@@ -14,7 +14,8 @@ var path = d3.geoPath()
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
-    point = [50, 6.8];
+    // must be long, lat
+    point = [6.8, 50];
     console.log(projection(point));
 
     svg.selectAll("path")
