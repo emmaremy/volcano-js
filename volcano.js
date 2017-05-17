@@ -50,6 +50,3 @@ render = function() {
 
 render();
 });
-
-</script>
-
