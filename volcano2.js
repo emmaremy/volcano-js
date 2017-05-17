@@ -5,6 +5,7 @@ var svg = d3.select("svg")
 var path = d3.geoPath();
 
 var projection = d3.geoMercator()
+    .center([0,0]);
     .rotate([-180,0]);
 
 var path = d3.geoPath()
@@ -21,7 +22,6 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .enter()
       .append("path")
         .attr("class", "land")
-        .attr("fill", "green")
         .attr("d", path);
 
     svg.append("g")
