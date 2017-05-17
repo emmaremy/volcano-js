@@ -4,10 +4,6 @@ body {
     width: 80%;
 }
 
-.land :hover {
-    fill: red;
-}
-
 .borders {
     fill: none;
     stroke: #fff;
