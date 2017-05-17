@@ -4,6 +4,10 @@ body {
     width: 80%;
 }
 
+.countries :hover {
+    fill: red;
+}
+
 .borders {
     fill: none;
     stroke: #fff;
