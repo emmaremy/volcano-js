@@ -28,10 +28,10 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .enter()
       .append("circle")
         .attr("cx", function(d) {
-            return projection([d.lon, d.lat])[0];
+            return projection(d)[0];
         })
         .attr("cy", function(d) {
-            return projection([d.lon, d.lat])[1];
+            return projection(d)[1];
         })
         .attr("r", 10)
         .style("fill", "red")
