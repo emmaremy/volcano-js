@@ -15,6 +15,13 @@ var data = [38.964, -77.067];
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
+    svg.append("g")
+        .attr("class", "land")
+      .selectAll("path")
+      .data(topojson.feature(world, world.objects.land).features)
+      .enter().append("path")
+        .attr("d", path);
+
     g.selectAll("circle")
         .data(data)
         .enter()
@@ -28,11 +35,5 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         .attr("r", 10)
         .style("fill", "red")
 
-    svg.append("g")
-        .attr("class", "land")
-      .selectAll("path")
-      .data(topojson.feature(world, world.objects.land).features)
-      .enter().append("path")
-        .attr("d", path);
 
 });
