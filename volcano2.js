@@ -5,8 +5,8 @@ var svg = d3.select("svg")
 var path = d3.geoPath();
 
 var projection = d3.geoMercator()
-    .center([0, 5 ])
-    .scale(200)
+    .center([0,0])
+    .scale(100)
     .rotate([-180,0]);
 
 var path = d3.geoPath()
@@ -21,4 +21,5 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
       .data(topojson.feature(world, world.objects.land).features)
       .enter().append("path")
         .attr("d", path);
+
 });
