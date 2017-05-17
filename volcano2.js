@@ -4,7 +4,7 @@ var svg = d3.select("svg")
 
 var path = d3.geoPath();
 
-var projection = d3.geoAlbers()
+var projection = d3.geoConicEqualArea()
     .center([0,0])
     .scale(100)
     .rotate([-180,0]);
