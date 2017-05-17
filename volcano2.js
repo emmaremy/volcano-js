@@ -5,7 +5,7 @@ var svg = d3.select("svg")
 var path = d3.geoPath();
 
 var projection = d3.geoMercator()
-    .center([0,0])
+    .center([0,0]);
     .rotate([-180,0]);
 
 var path = d3.geoPath()
@@ -14,7 +14,7 @@ var path = d3.geoPath()
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
-    point = [38.965, -77.067];
+    point = [50, 6.8];
     console.log(projection(point));
 
     svg.selectAll("path")
@@ -31,11 +31,11 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
       .append("circle")
         .attr("cx", function(d) {
             console.log(projection(d)[0]);
-            return projection(d)[1];
+            return projection(d)[0];
         })
         .attr("cy", function(d) {
             console.log(projection(d)[1]);
-            return projection(d)[0];
+            return projection(d)[1];
         })
         .attr("r", 10)
         .style("fill", "red")
