@@ -4,7 +4,7 @@ body {
     width: 80%;
 }
 
-.countries :hover {
+.land :hover {
     fill: red;
 }
 
