@@ -51,7 +51,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         context.beginPath(), path(sphere), context.stroke();
         
         canvas.selectAll("circle")
-            .data([25,25]).enter()
+            .data([aa]).enter()
             .append("circle")
             .attr("cx", function(d) {
                 return projection(d)[0];
