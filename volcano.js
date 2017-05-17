@@ -50,7 +50,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
         
-        context.selectAll("circle")
+        svg.selectAll("circle")
             .data([25,25]).enter()
             .append("circle")
             .attr("cx", function(d) {
