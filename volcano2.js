@@ -1,5 +1,7 @@
 var svg = d3.select("#area1")
     .append("svg")
+    .style("height", 600)
+    .style("width", 960);
 
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
