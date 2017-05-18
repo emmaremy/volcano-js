@@ -45,12 +45,12 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
     render = function() {
         context.clearRect(0, 0, width, height);
         context.beginPath(), path(sphere), context.fillStyle = "#fff", context.fill();
-        context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
+        context.beginPath(), path(land), context.fillStyle = "#000", context.fill(), context.attr("d", path);
         context.beginPath(), path(sphere), context.stroke();
 
-        context.beginPath(), context.arc(function (path(land)) {
-            console.log(projection([path(land).Longitude, path(land).Latitude]));
-            return projection([path.Longitude, path.Latitude])[0];
+        context.beginPath(), context.arc(function (d) {
+            console.log(projection([d.Longitude, d.Latitude]));
+            return projection([d.Longitude, d.Latitude])[0];
         }, 300, 10, 0, 2*Math.PI), context.fillStyle = "red", context.fill();
 
     };
