@@ -27,6 +27,8 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 d3.csv("volcano_comb.csv", function(error, data) {
     if (error) throw error;
 
+    console.log(d.longitude, d.latitude);
+
     svg.append("g")
         .selectAll("circle")
         .data(data)
