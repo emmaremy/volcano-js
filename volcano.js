@@ -1,6 +1,7 @@
-var canvas = d3.select("canvas"),
-    width = canvas.property("width"),
-    height = canvas.property("height"),
+var canvas = d3.select("#area2")
+    .append("canvas"),
+    width = 960;
+    height = 600;
     context = canvas.node().getContext("2d");
 
 var projection = d3.geoOrthographic()
@@ -48,13 +49,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
-        context.beginPath(), context.arc(function (d) {
-            console.log(projection(d));
-            return projection(d)[0];
-        }, 300, 10, 0, 2*Math.PI), context.fillStyle = "red", context.fill();
-
     };
-
 
 render();
 });
