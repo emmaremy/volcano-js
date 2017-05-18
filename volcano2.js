@@ -1,6 +1,4 @@
 var svg = d3.select("svg")
-    .attr("width", width)
-    .attr("height", height);
 
 var path = d3.geoPath();
 
