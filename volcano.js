@@ -61,13 +61,9 @@ render();
 d3.csv("volcano_comb.csv", function(error, data) {
     if (error) throw error;
 
-    svg2.append("g")
-        .selectAll("circle")
-        .data(data)
-        .enter()
-      .append("circle")
-        .attr("cx", 300)
-        .attr("cy", 300)
-        .attr("r", 10)
-        .style("fill", "red");
+    console.log("I got here!");
+
+    svg2.append("path")
+        .datum(d3.geo.circle().angle(45))
+        .attr("d", path);
 });
