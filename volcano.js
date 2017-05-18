@@ -64,6 +64,6 @@ d3.csv("volcano_comb.csv", function(error, data) {
     console.log("I got here!");
 
     svg2.append("path")
-        .datum(d3.geo.circle().angle(45))
+        .datum(d3.geoCircle().angle(45))
         .attr("d", path);
 });
