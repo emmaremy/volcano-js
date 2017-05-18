@@ -51,5 +51,23 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         context.beginPath(), path(sphere), context.stroke();
     };
 
+d3.csv("volcano_comb.csv", function(error, data) {
+    if (error) throw error;
+
+    canvas.append("g")
+        .selectAll("circle")
+        .data(data)
+        .enter()
+      .append("circle")
+        .attr("cx", function(d) {
+            return projection([d.Longitude, d.Latitude])[0];
+        })
+        .attr("cy", function(d) {
+            return projection([d.Longitude, d.Latitude])[1];
+        })
+        .attr("r", 3)
+        .style("fill", "red")
+});
+
 render();
 });
