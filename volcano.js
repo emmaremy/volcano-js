@@ -41,8 +41,6 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
-    var d = context.beginPath(), path(land);
-    console.log(d);
 
     render = function() {
         context.clearRect(0, 0, width, height);
@@ -51,8 +49,8 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         context.beginPath(), path(sphere), context.stroke();
 
         context.beginPath(), context.arc(function (d) {
-            console.log(projection([d.Longitude, d.Latitude]));
-            return projection([d.Longitude, d.Latitude])[0];
+            console.log(projection(d));
+            return projection(d)[0];
         }, 300, 10, 0, 2*Math.PI), context.fillStyle = "red", context.fill();
 
     };
