@@ -2,8 +2,9 @@ var svg2 = d3.select("#area2")
     .append("svg")
     .style("width", 960)
     .style("height", 600)
+    .append("canvas");
 
-var canvas = svg2.append("canvas");
+var canvas = svg2.select("canvas");
 
     width = canvas.property("width");
     height = canvas.property("height");
