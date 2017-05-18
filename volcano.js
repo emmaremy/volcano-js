@@ -1,7 +1,8 @@
 var canvas = d3.select("#area2")
-    .append("canvas")
+    .append("svg")
     .style("width", 960)
     .style("height", 600);
+    .append("canvas");
     width = canvas.property("width");
     height = canvas.property("height");
     context = canvas.node().getContext("2d");
