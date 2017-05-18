@@ -16,7 +16,7 @@ canvas.call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged));
 
-    var render = function() {},
+var render = function() {},
     v0, // Mouse position in Cartesian coordinates at start of drag gesture.
     r0, // Projection rotation as Euler angles at start.
     q0; // Projection rotation as versor at start.
