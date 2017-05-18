@@ -41,11 +41,12 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
+    var d = path(land);
 
     render = function() {
         context.clearRect(0, 0, width, height);
         context.beginPath(), path(sphere), context.fillStyle = "#fff", context.fill();
-        context.beginPath(), path(land), context.fillStyle = "#000", context.fill(), context.attr("d", path);
+        context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
         context.beginPath(), context.arc(function (d) {
