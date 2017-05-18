@@ -64,7 +64,7 @@ d3.csv("volcano_comb.csv", function(error, data) {
     console.log("I got here!");
 
     svg2.append("path")
-        .datum(d3.geoCircle().center(-77, 38).radius(10))
+        .datum(d3.geoCircle())
         .attr("class", "circle")
         .attr("fill", "red")
         .attr("d", path);
