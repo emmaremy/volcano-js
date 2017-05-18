@@ -35,12 +35,12 @@ d3.csv("volcano_comb.csv", function(error, data) {
         .enter()
       .append("circle")
         .attr("cx", function(d) {
-            console.log(projection([d.longitude, d.latitude])[0]);
-            return projection([d.longitude, d.latitude])[0];
+            console.log(projection([d.Longitude, d.Latitude])[0]);
+            return projection([d.Longitude, d.Latitude])[0];
         })
         .attr("cy", function(d) {
-            console.log(projection([d.longitude, d.latitude])[1]);
-            return projection([d.longitude, d.latitude])[1];
+            console.log(projection([d.Longitude, d.Latitude])[1]);
+            return projection([d.Longitude, d.Latitude])[1];
         })
         .attr("r", 3)
         .style("fill", "red")
