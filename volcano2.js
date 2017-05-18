@@ -1,4 +1,4 @@
-var svg = d3.select("#area1")
+var svg1 = d3.select("#area1")
     .append("svg")
     .style("height", 600)
     .style("width", 960);
@@ -18,7 +18,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 
     // must be long, lat
 
-    svg.selectAll("path")
+    svg1.selectAll("path")
       .data(topojson.feature(world, world.objects.land).features)
         .enter()
       .append("path")
@@ -28,7 +28,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 d3.csv("volcano_comb.csv", function(error, data) {
     if (error) throw error;
 
-    svg.append("g")
+    svg1.append("g")
         .selectAll("circle")
         .data(data)
         .enter()
