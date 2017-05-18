@@ -1,13 +1,12 @@
-var svg2 = d3.select("#area2")
-    .append("svg")
+var svg2 = d3.select("#area2");
 
 var canvas = svg2.append("canvas")
     .attr("width", 960)
     .attr("height", 600);
 
+    context = canvas.node().getContext("2d");
     width = canvas.property("width");
     height = canvas.property("height");
-    context = canvas.node().getContext("2d");
 
 var projection = d3.geoOrthographic()
     .scale((height - 10) / 2)
