@@ -3,12 +3,12 @@ var canvas = d3.select("canvas"),
     height = canvas.property("height"),
     context = canvas.node().getContext("2d");
 
-    var projection = d3.geoOrthographic()
+var projection = d3.geoOrthographic()
     .scale((height - 10) / 2)
     .translate([width / 2, height / 2])
     .precision(0.1);
 
-    var path = d3.geoPath()
+var path = d3.geoPath()
     .projection(projection)
     .context(context);
 
