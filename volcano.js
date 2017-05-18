@@ -1,7 +1,5 @@
 var canvas = d3.select("#area2")
     .append("canvas")
-    .width(960)
-    .height(600);
     context = canvas.node().getContext("2d");
 
 var projection = d3.geoOrthographic()
