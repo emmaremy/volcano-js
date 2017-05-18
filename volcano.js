@@ -41,7 +41,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
-    var d = path();
+    var d = path;
     console.log(d);
 
     render = function() {
