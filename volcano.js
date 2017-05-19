@@ -51,7 +51,7 @@ function drawCircle(r, lon, lat) {
         context.fillStyle = "rgba(255, 0, 0, .75)",
         context.fill();
 
-    console.log(lon, lat);
+    //console.log(lon, lat);
 }
 
 
@@ -69,9 +69,6 @@ d3.csv("volcano_comb.csv", function(error, data) {
         context.beginPath(), path(sphere), context.fillStyle = "#fff", context.fill();
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
-
-
-        console.log("got here");
 
         data.forEach(function (d){
             drawCircle(3, d.Longitude, d.Latitude);
