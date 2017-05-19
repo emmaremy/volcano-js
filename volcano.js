@@ -66,7 +66,9 @@ d3.csv("volcano_comb.csv", function(error, data) {
     console.log(path);
 
     svg2.append("path.circle")
-        .data(d3.geoCircle().origin([-77, 35]).angle(7.0))
+        .data(function (lon, lat) {
+            d3.geoCircle().origin([-77, 35]).angle(7.0))
+        })
       .enter.append("path")
         .attr("fill", "red")
         .attr("class", "circle")
