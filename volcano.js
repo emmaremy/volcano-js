@@ -1,6 +1,8 @@
-var base = d3.select("#area2");
+// the majority of this code comes from Mike Bostock
 
-//var svg2 = base.append("svg");
+// selecting from correct section,
+// because the html page includes multiple d3 blocks
+var base = d3.select("#area2");
 
 var canvas = base.append("canvas")
     .attr("width", 960)
@@ -42,6 +44,9 @@ function dragged() {
     render();
 }
 
+// my code, not Mike's:
+// given: "radius", longitude, and latitude
+// does: draws a geoCircle with the correct attributes
 function drawCircle(r, lon, lat) {
     var circle = d3.geoCircle().radius(r).center([lon, lat]);
     circles = [circle()];
@@ -50,14 +55,14 @@ function drawCircle(r, lon, lat) {
             geometries: circles}),
         context.fillStyle = "rgba(255, 0, 0, .75)",
         context.fill();
-
-    //console.log(lon, lat);
 }
 
 
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
+// loading my volcano data
+// (which I manipulated into the correct format using R)
 d3.csv("volcano_comb.csv", function(error, data) {
     if (error) throw error;
 
@@ -70,6 +75,7 @@ d3.csv("volcano_comb.csv", function(error, data) {
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
+        // for each data point, plot the correct circle
         data.forEach(function (d){
             drawCircle(1, d.Longitude, d.Latitude);
         });
