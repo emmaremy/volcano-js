@@ -73,7 +73,7 @@ d3.csv("volcano_comb.csv", function(error, data) {
         data.each( function (d) {
 
             drawCircle(3, d.Longitude, d.Latitude);
-        }
+        });
 
     };
 
