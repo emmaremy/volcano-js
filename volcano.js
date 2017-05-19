@@ -58,6 +58,8 @@ d3.csv("volcano_comb.csv", function(error, data) {
     }
     circles = [circle(data.Latitude, data.Longitude)];
 
+    console.log(data.Latitude, data.Longitude)];
+
     render = function() {
         context.clearRect(0, 0, width, height);
         context.beginPath(), path(sphere), context.fillStyle = "#fff", context.fill();
@@ -70,42 +72,8 @@ d3.csv("volcano_comb.csv", function(error, data) {
         context.fillStyle = "rgba(255, 0, 0, 1)",
         context.fill();
 
-        console.log("i got here");
-
     };
-
-//var indicatices = d3.merge(d3.range(-180,181,30).map(function(lon) { 
-//    return d3.range(-60,61,30).map(function(lat) { 
-//        return d3.geoCircle().center([ lon, lat ]).radius(7.0)();
-//    }); 
-//}));
-//
-//svg2.selectAll("path.tissot")
-//    .data(indicatices)
-//    .enter().append("path")
-//    .attr("class", "tissot")
-//    .attr("d", path);
-
 
 render();
 });
 });
-
-
-//d3.csv("volcano_comb.csv", function(error, data) {
-//    if (error) throw error;
-//
-//    var circle = d3.geoCircle();
-//
-//    console.log("I got here!");
-//
-//    console.log(path);
-//
-//    svg2.append("path.circle")
-//        .attr("class", "circle")
-//        .data(data)
-//      .enter().append("path")
-//        .attr("fill", "red")
-//        .attr("d", path);
-//
-//});
