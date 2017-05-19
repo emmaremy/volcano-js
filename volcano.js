@@ -1,4 +1,5 @@
-var svg2 = d3.select("#area2");
+var svg2 = d3.select("#area2")
+    .append("svg");
 
 var canvas = svg2.append("canvas")
     .attr("width", 960)
@@ -55,21 +56,37 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 
     };
 
+var indicatices = d3.merge(d3.range(-180,181,30).map(function(lon) { 
+    return d3.range(-60,61,30).map(function(lat) { 
+        return d3.geo.circle().origin([ lon, lat ]).angle(7.0)();
+    }); 
+}));
+
+svg2.selectAll("path.tissot")
+    .data(indicatices)
+    .enter().append("path")
+    .attr("class", "tissot")
+    .attr("d", path);
+
+
 render();
 });
 
-d3.csv("volcano_comb.csv", function(error, data) {
-    if (error) throw error;
 
-    console.log("I got here!");
-
-    console.log(path);
-
-    svg2.append("path.circle")
-        .data(d3.geoCircle())
-      .enter().append("path")
-        .attr("fill", "red")
-        .attr("class", "circle")
-        .attr("d", path);
-
-});
+//d3.csv("volcano_comb.csv", function(error, data) {
+//    if (error) throw error;
+//
+//    var circle = d3.geoCircle();
+//
+//    console.log("I got here!");
+//
+//    console.log(path);
+//
+//    svg2.append("path.circle")
+//        .attr("class", "circle")
+//        .data(data)
+//      .enter().append("path")
+//        .attr("fill", "red")
+//        .attr("d", path);
+//
+//});
