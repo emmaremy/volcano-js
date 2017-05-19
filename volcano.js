@@ -89,6 +89,7 @@ d3.csv("volcano_comb.csv", function(error, data) {
 
 render();
 });
+});
 
 
 //d3.csv("volcano_comb.csv", function(error, data) {
