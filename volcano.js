@@ -42,6 +42,16 @@ function dragged() {
     render();
 }
 
+function drawCircle(r, lat, lon) {
+    var circle = d3.geoCircle().radius(r).center([lon, lat]);
+    circles = [circle()];
+    context.beginPath(),
+        path({type: "GeometryCollection",
+            geometries: circles}),
+        context.fillStyle = "rgba(255, 0, 0, .75)",
+        context.fill();
+}
+
 
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
@@ -49,28 +59,16 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 d3.csv("volcano_comb.csv", function(error, data) {
     if (error) throw error;
 
-
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
     
-    var circle = function (lat, lon) {
-        d3.geoCircle().radius(3).center([lon, lat]);
-    }
-    circles = [circle(data.Latitude, data.Longitude)];
-
-    console.log(data);
-
     render = function() {
         context.clearRect(0, 0, width, height);
         context.beginPath(), path(sphere), context.fillStyle = "#fff", context.fill();
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
-        context.beginPath(),
-        path({type: "GeometryCollection",
-            geometries: circles}),
-        context.fillStyle = "rgba(255, 0, 0, 1)",
-        context.fill();
+        drawCircle(10, -77, 39);
 
     };
 
