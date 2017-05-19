@@ -17,9 +17,6 @@ var path = d3.geoPath()
     .projection(projection)
     .context(context);
 
-var path2 = d3.geoPath()
-    .projection(projection)
-
 canvas.call(d3.drag()
         .on("start", dragstarted)
         .on("drag", dragged));
@@ -66,12 +63,13 @@ d3.csv("volcano_comb.csv", function(error, data) {
 
     console.log("I got here!");
 
-    console.log(path2);
+    console.log(path);
 
-    svg2.append("path2")
-        .datum(d3.geoCircle())
-        .attr("class", "circle")
+    svg2.append("path.circle")
+        .data(d3.geoCircle().origin([-77, 35]).angle(7.0)())
+      .enter.append("path")
         .attr("fill", "red")
-        .attr("d", path2);
+        .attr("class", "circle")
+        .attr("d", path);
 
 });
