@@ -64,6 +64,8 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         context.fillStyle = "rgba(255, 0, 0, 1)",
         context.fill();
 
+        console.log("i got here");
+
     };
 
 //var indicatices = d3.merge(d3.range(-180,181,30).map(function(lon) { 
