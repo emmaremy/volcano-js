@@ -59,7 +59,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 
 var indicatices = d3.merge(d3.range(-180,181,30).map(function(lon) { 
     return d3.range(-60,61,30).map(function(lat) { 
-        return d3.geo.circle().origin([ lon, lat ]).angle(7.0)();
+        return d3.geoCircle().origin([ lon, lat ]).angle(7.0)();
     }); 
 }));
 
