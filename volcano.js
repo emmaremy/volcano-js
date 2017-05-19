@@ -61,6 +61,8 @@ d3.csv("volcano_comb.csv", function(error, data) {
 
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
+
+    var dataBinding = data.
     
     render = function() {
         context.clearRect(0, 0, width, height);
@@ -68,7 +70,10 @@ d3.csv("volcano_comb.csv", function(error, data) {
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
-        drawCircle(10, -77, 39);
+        data.each( function (d) {
+
+            drawCircle(3, d.Longitude, d.Latitude);
+        }
 
     };
 
