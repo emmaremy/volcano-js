@@ -58,8 +58,6 @@ function drawCircle(r, lon, lat) {
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
-d3.csv("volcano_comb.csv", function(error, data) {
-    if (error) throw error;
 
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
@@ -74,6 +72,9 @@ d3.csv("volcano_comb.csv", function(error, data) {
 
 
         console.log("got here");
+
+        d3.csv("volcano_comb.csv", function(error, data) {
+            if (error) throw error;
 
         data.forEach(function (d){
             drawCircle(3, d.Longitude, d.Latitude);
