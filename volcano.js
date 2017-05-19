@@ -1,7 +1,8 @@
-var svg2 = d3.select("#area2")
-    .append("svg");
+var base = d3.select("#area2");
 
-var canvas = svg2.append("canvas")
+var svg2 = base.append("svg");
+
+var canvas = base.append("canvas")
     .attr("width", 960)
     .attr("height", 600);
 
