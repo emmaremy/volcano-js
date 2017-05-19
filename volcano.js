@@ -46,11 +46,17 @@ function dragged() {
 d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world) {
     if (error) throw error;
 
+d3.csv("volcano_comb.csv", function(error, data) {
+    if (error) throw error;
+
+
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
     
-    var circle = d3.geoCircle().radius(10).center([-77, 39]);
-    circles = [circle()];
+    var circle = function (lat, lon) {
+        d3.geoCircle().radius(3).center([lon, lat]);
+    }
+    circles = [circle(data.Latitude, data.Longitude)];
 
     render = function() {
         context.clearRect(0, 0, width, height);
