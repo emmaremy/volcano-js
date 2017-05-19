@@ -72,10 +72,10 @@ d3.csv("volcano_comb.csv", function(error, data) {
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
-        data.each( function (d) {
 
-            console.log("got here");
+        console.log("got here");
 
+        data.forEach(function (d){
             drawCircle(3, d.Longitude, d.Latitude);
         });
 
