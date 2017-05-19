@@ -58,7 +58,7 @@ d3.csv("volcano_comb.csv", function(error, data) {
     }
     circles = [circle(data.Latitude, data.Longitude)];
 
-    console.log(data.Latitude, data.Longitude);
+    console.log(data);
 
     render = function() {
         context.clearRect(0, 0, width, height);
