@@ -1,6 +1,6 @@
 var base = d3.select("#area2");
 
-var svg2 = base.append("svg");
+//var svg2 = base.append("svg");
 
 var canvas = base.append("canvas")
     .attr("width", 960)
@@ -50,6 +50,8 @@ function drawCircle(r, lon, lat) {
             geometries: circles}),
         context.fillStyle = "rgba(255, 0, 0, .75)",
         context.fill();
+
+    console.log(lon, lat);
 }
 
 
