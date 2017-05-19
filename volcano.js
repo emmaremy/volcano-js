@@ -49,7 +49,7 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
     
-    var circle = d3.geoCircle().radius(10).center([47, -122]);
+    var circle = d3.geoCircle().radius(10).center([-77, 39]);
     circles = [circle()];
 
     render = function() {
