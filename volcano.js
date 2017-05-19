@@ -48,6 +48,9 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
 
     var sphere = {type: "Sphere"},
     land = topojson.feature(world, world.objects.land);
+    
+    var circle = d3.geoCircle().radius(10).center([47, -122)]);
+    circles = [circle()];
 
     render = function() {
         context.clearRect(0, 0, width, height);
@@ -55,19 +58,25 @@ d3.json("https://unpkg.com/world-atlas@1/world/110m.json", function(error, world
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
+        context.beginPath(),
+        path({type: "GeometryCollection",
+            geometries: circles}),
+        context.fillStyle = "rgba(255, 0, 0, 1)",
+        context.fill();
+
     };
 
-var indicatices = d3.merge(d3.range(-180,181,30).map(function(lon) { 
-    return d3.range(-60,61,30).map(function(lat) { 
-        return d3.geoCircle().center([ lon, lat ]).radius(7.0)();
-    }); 
-}));
-
-svg2.selectAll("path.tissot")
-    .data(indicatices)
-    .enter().append("path")
-    .attr("class", "tissot")
-    .attr("d", path);
+//var indicatices = d3.merge(d3.range(-180,181,30).map(function(lon) { 
+//    return d3.range(-60,61,30).map(function(lat) { 
+//        return d3.geoCircle().center([ lon, lat ]).radius(7.0)();
+//    }); 
+//}));
+//
+//svg2.selectAll("path.tissot")
+//    .data(indicatices)
+//    .enter().append("path")
+//    .attr("class", "tissot")
+//    .attr("d", path);
 
 
 render();
