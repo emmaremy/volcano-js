@@ -70,12 +70,11 @@ d3.csv("volcano_comb.csv", function(error, data) {
         context.beginPath(), path(land), context.fillStyle = "#000", context.fill();
         context.beginPath(), path(sphere), context.stroke();
 
-        
-    };
-
-    data.forEach(function (d){
-            drawCircle(3, d.Longitude, d.Latitude);
+        data.forEach(function (d){
+            drawCircle(1, d.Longitude, d.Latitude);
         });
+
+    };
 
 render();
 });
