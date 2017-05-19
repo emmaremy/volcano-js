@@ -42,7 +42,7 @@ function dragged() {
     render();
 }
 
-function drawCircle(r, lat, lon) {
+function drawCircle(r, lon, lat) {
     var circle = d3.geoCircle().radius(r).center([lon, lat]);
     circles = [circle()];
     context.beginPath(),
